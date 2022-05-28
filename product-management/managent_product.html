@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Jame/case_study/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Quản lý sản phẩm</h1>
+    <input type="text" id="idproduct" placeholder="Mã sản phẩm">
+    <input type="text" id="image" placeholder="Image">
+    <input type="text" id="name" placeholder="Tên">
+    <select id="type">
+        <option value="Mobile">Mobile</option>
+        <option value="Tablet">Tablet</option>
+        <option value="Laptop">Laptop</option>
+    </select>
+    <select id="quantity">
+        <option value="1">1</option>
+    </select>
+    <input type="text" id="price" placeholder="Giá">
+    <button onclick="addProduct()">Thêm</button><br>
+    <div id="edit-show">
+
+    </div><br>
+    <button onclick="deleteAllProduct()">Delete All</button>
+    <div id="managent-product-table">
+                <div>STT</div>
+                <div>Mã Sản Phảm</div>
+                <div>Ảnh</div>
+                <div>Tên</div>
+                <div>Loại</div>
+                <div>Số lượng</div>
+                <div>Giá</div>
+                <div></div>
+                <div></div>
+    </div>
+    <div id="managent-product-div">
+    </div>
+</body>
+<script src="./product.js"></script>
+<script src="./delete_product.js"></script>
+<script src="./edit_product.js"></script>
+<script src="./add_product.js"></script>
+<script src="./show_product.js"></script>
+<script src="./main_managent.js">
+</script>
+
+</html>
