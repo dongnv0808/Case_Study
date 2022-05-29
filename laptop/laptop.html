@@ -18,8 +18,8 @@
                 <a href="/Jame/case_study/laptop/laptop.html" id="laptop-product" style="background-color: #ccc;">Laptop</a>
             </div>
             <div class="header-right">
-                <input type="text" class="input-search">
-                <i class="search-icon ti-search"></i>
+                <input type="text" id="input-search">
+                <i class="search-icon ti-search" onclick="checkInput()"></i>
                 <a class="shop-cart ti-shopping-cart"></a>
             </div>
         </div>
@@ -52,6 +52,25 @@
         </div>
         </div>
     </div>
+    <div class="modal-detail js-modal-detail">
+        <div class="moda-detail-container">
+            <div id="product">
+                <div class="product-list">
+                    <div class="product-title">
+                        <table style="width: 100%;">
+                            <th style="font-size: 34px;">Thông tin</th>
+                            <th style="text-align: right; padding: 24px;"><i class="btn-close-detail ti-close"></i></th>
+                        </table>
+                    </div>
+                    <div id="product-mobile-item-detail">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Jame/case_study/search_product.js"></script>
+    <script src="/Jame/case_study/detail_product.js"></script>
     <script src="/Jame/case_study/laptop/laptop.js"></script>
     <script src="/Jame/case_study/show_product_cart.js"></script>
     <script src="/Jame/case_study/removecart.js"></script>

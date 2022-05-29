@@ -5,5 +5,5 @@ function deleteProduct(i) {
         data.splice(i, 1);
     }
     localStorage.setItem('DataProduct', JSON.stringify(data))
-    showProduct();
+    showProductDiv()
 }

@@ -37,6 +37,11 @@ function showProductDiv(){
         <div>${data[i].type}</div>
         <div>${data[i].quantity}</div>
         <div>${data[i].price}</div>
+        <div>${data[i].display}</div>
+        <div>${data[i].chip}</div>
+        <div>${data[i].ram}</div>
+        <div>${data[i].hdh}</div>
+        <div>${data[i].pin}</div>
         <div>
             <button onclick="editProduct(${i})">Sửa</button>
         </div>

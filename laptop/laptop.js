@@ -8,7 +8,7 @@ function showProduct(){
             <div>
             <img src="/Jame/case_study/image/img-product/${data[i].image}" width="190px" height="190px" alt="">
             <div class="content-item">
-                <a href="#" class="name-item">${data[i].name}</a>
+                <a class="detail-product" onclick="detailClick(${i})">${data[i].name}</a>
             </div>
             <strong class="price-item">${data[i].price}đ</strong>
             <div class="btn-item">

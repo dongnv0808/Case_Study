@@ -15,7 +15,7 @@ function showProduct(){
             float: left;">
             <img src="/Jame/case_study/image/img-product/${data[i].image}" width="190px" height="190px" alt="">
             <div class="content-item">
-                <a href="#" class="name-item">${data[i].name}</a>
+            <a class="detail-product" onclick="detailClick(${i})">${data[i].name}</a>
             </div>
             <strong class="price-item">${data[i].price}đ</strong>
             <div class="btn-item">
@@ -39,7 +39,7 @@ function showProduct(){
             float: left;">
             <img src="/Jame/case_study/image/img-product/${data[j].image}" width="190px" height="190px" alt="">
             <div class="content-item">
-                <a href="#" class="name-item">${data[j].name}</a>
+                <a class="detail-product" onclick="detailClick(${j})">${data[j].name}</a>
             </div>
             <strong class="price-item">${data[j].price}đ</strong>
             <div class="btn-item">
@@ -63,7 +63,7 @@ function showProduct(){
             float: left;">
             <img src="/Jame/case_study/image/img-product/${data[k].image}" width="190px" height="190px" alt="">
             <div class="content-item">
-                <a href="#" class="name-item">${data[k].name}</a>
+                <a class="detail-product" onclick="detailClick(${k})">${data[k].name}</a>
             </div>
             <strong class="price-item">${data[k].price}đ</strong>
             <div class="btn-item">
