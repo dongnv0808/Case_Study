@@ -30,7 +30,7 @@ function showProductDiv(){
     for (let i = 0; i < data.length; i++) {
         showArr +=
     `
-        <div>${i + 1}</div>
+        <div style="Cellpadding: 50px">${i + 1}</div>
         <div>${data[i].idproduct}</div>
         <div style="width:100%">${data[i].image}</div>
         <div>${data[i].name}</div>
